@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+models/*.pkl
+!models/.gitkeep
+reports/*.png
+reports/*.json
+!reports/.gitkeep
+
+# Data (don't commit large data files)
+data/processed/*
+!data/processed/.gitkeep
+data/synthetic/*
+!data/synthetic/.gitkeep
+
+# Optuna
+.optuna/
+
+# Logs
+*.log

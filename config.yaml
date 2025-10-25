@@ -1,0 +1,51 @@
+data:
+  file_path: data/raw/Telco_customer_churn.xlsx
+  sheet_name: "Telco_Churn"
+  target: "Churn Value"
+  test_size: 0.2
+  random_state: 42
+
+features:
+  drop: 
+    - "CustomerID"
+    - "Count" 
+    - "Country"
+    - "State"
+    - "City"
+    - "Zip Code"
+    - "Lat Long"
+    - "Latitude"
+    - "Longitude"
+    - "Churn Label"
+    - "Churn Score"
+    - "CLTV"
+    - "Churn Reason"
+  
+  numeric: 
+    - "Tenure Months"
+    - "Monthly Charges"
+    - "Total Charges"
+  
+  categorical:
+    - "Gender"
+    - "Senior Citizen"
+    - "Partner"
+    - "Dependents"
+    - "Phone Service"
+    - "Multiple Lines"
+    - "Internet Service"
+    - "Online Security"
+    - "Online Backup"
+    - "Device Protection"
+    - "Tech Support"
+    - "Streaming TV"
+    - "Streaming Movies"
+    - "Contract"
+    - "Paperless Billing"
+    - "Payment Method"
+
+training:
+  n_trials: 30
+  cv_folds: 3
+
+seed: 42
