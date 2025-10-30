@@ -62,7 +62,7 @@ Use case: Useful for testing the pipeline without exposing production data. Vali
 bashpython generate_synthetic_data.py --n_samples 1000 --validate
 
 ### Setup:
-- bashgit clone https://github.com/yourusername/telco-churn-prediction.git
+- bashgit clone https://github.com/yourusername/xgboost-churn-prediction-pipeline-project.git
 - cd telco-churn-prediction
 - python -m venv .venv
 - source .venv/bin/activate
