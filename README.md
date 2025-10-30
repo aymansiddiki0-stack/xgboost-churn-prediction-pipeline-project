@@ -109,8 +109,8 @@ The model shows strong performance but has some limitations worth noting:
 
 The regularization parameters suggest the model relies on a sparse subset of the one-hot encoded features, which aligns with the feature importance showing contract type dominates.
 
-Dataset
+### Dataset
 IBM Telecommunications Customer Churn
 
-License
+### License
 MIT
